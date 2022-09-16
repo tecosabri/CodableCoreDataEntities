@@ -19,6 +19,8 @@ public class Hero: NSManagedObject, Codable {
     @NSManaged var photo: String?
     @NSManaged public var id: String?
     @NSManaged var descript: String? // Not description as its a conflictive name
+    @NSManaged public var locations: NSSet?
+    public var locationsIds: [String]?  // This variable will store the encoded locations ids
     @NSManaged var favorite: NSNumber?
     // Entities don't have booleans but NSNumbers 0 and 1, so it has to be converted to Bool the following way
     var isFavorite: Bool? {

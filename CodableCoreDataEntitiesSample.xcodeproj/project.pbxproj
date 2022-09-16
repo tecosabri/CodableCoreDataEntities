@@ -21,6 +21,7 @@
 		8705AB3428D47CD100F8CA02 /* JSONDecoderAndEncoderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8705AB3328D47CD100F8CA02 /* JSONDecoderAndEncoderExtension.swift */; };
 		8705AB3628D47D2A00F8CA02 /* CodingUserInfoKeyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8705AB3528D47D2A00F8CA02 /* CodingUserInfoKeyExtension.swift */; };
 		8705AB3828D47E9500F8CA02 /* APIresponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8705AB3728D47E9500F8CA02 /* APIresponse.swift */; };
+		8705AB3C28D4AF1500F8CA02 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8705AB3A28D4AF1500F8CA02 /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		8705AB3328D47CD100F8CA02 /* JSONDecoderAndEncoderExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecoderAndEncoderExtension.swift; sourceTree = "<group>"; };
 		8705AB3528D47D2A00F8CA02 /* CodingUserInfoKeyExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingUserInfoKeyExtension.swift; sourceTree = "<group>"; };
 		8705AB3728D47E9500F8CA02 /* APIresponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIresponse.swift; sourceTree = "<group>"; };
+		8705AB3A28D4AF1500F8CA02 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 		8705AB3128D47C8500F8CA02 /* CoreDataModels */ = {
 			isa = PBXGroup;
 			children = (
+				8705AB3A28D4AF1500F8CA02 /* Location.swift */,
 				8705AB2E28D47C5D00F8CA02 /* Hero.swift */,
 			);
 			path = CoreDataModels;
@@ -301,6 +304,7 @@
 				8705AB0028D4795000F8CA02 /* ViewController.swift in Sources */,
 				8705AAFC28D4795000F8CA02 /* AppDelegate.swift in Sources */,
 				8705AB3428D47CD100F8CA02 /* JSONDecoderAndEncoderExtension.swift in Sources */,
+				8705AB3C28D4AF1500F8CA02 /* Location.swift in Sources */,
 				8705AB0628D4795000F8CA02 /* CodableCoreDataEntitiesSample.xcdatamodeld in Sources */,
 				8705AB3828D47E9500F8CA02 /* APIresponse.swift in Sources */,
 				8705AAFE28D4795000F8CA02 /* SceneDelegate.swift in Sources */,

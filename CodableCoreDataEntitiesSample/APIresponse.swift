@@ -128,4 +128,19 @@ class APIResponse {
         }
     ]
     """
+    
+    let gokuLocation =
+    """
+    [
+        {
+            "longitud": "-3.700824111001255",
+            "dateShow": "2022-02-20T00:00:00Z",
+            "latitud": "40.437149142667955",
+            "hero": {
+                "id": "D13A40E5-4418-4223-9CE6-D2F9A28EBE94"
+            },
+            "id": "6982D037-A9E0-4EE1-8BFA-FF17874D6DD5"
+        }
+    ]
+    """
 }
